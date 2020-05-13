@@ -9,7 +9,7 @@ defmodule Weather.GetWeather do
   Fetches current weather data for Toronto from openweathermap.org
   and displays the current temperature, feels like temperature and wind speed.
   """
-  def main() do
+  def main(_) do
     get_data()
     |> display()
   end
