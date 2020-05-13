@@ -1,21 +1,2 @@
-# Weather
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `weather` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:weather, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/weather](https://hexdocs.pm/weather).
-
+A simple weather app that fetches the current weather for Toronto from openweathermap.org and displays the current temperature, feels like temperature, and the current wind speed
+This project helped me learn how to fetch data from an api service and parse XML data.
